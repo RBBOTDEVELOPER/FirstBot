@@ -27,18 +27,18 @@ async def start_(event):
         ),
         buttons=[
             [
-                Button.url("Repo", url="https://github.com/msy1717/startBot"),
-                Button.url(
-                    "Developer", url="https://t.me/Godmrunal"
+                 
+                 Button.url(
+                    "Developer", url="https://t.me/TeBeero"
                 ),
             ],
-            [Button.url("Channel", url="https://t.me/Botz_Official")],
+            [Button.url("Channel", url="https://t.me/RoyalBotFamily")],
         ],
     )
 
 
 
 
-logging.info("\n\nBot has started.\n(c) @Godmrunal")
+logging.info("\n\nBot has started.\n(c) @TeBeero")
 
 bot.run_until_disconnected()
